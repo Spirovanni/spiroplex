@@ -2,6 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+## Deploy to github server
+
+Run 'ng build --prod --base-href https://spirovanni.github.io/spiroplex/'
+
+then Run 'ngh'
+
+…or create a new repository on the command line
+
+echo "# spiroplex" >> README.md
+
+git add .
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/Spirovanni/spiroplex.git
+
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Spirovanni/spiroplex.git
+
+git push -u origin master
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

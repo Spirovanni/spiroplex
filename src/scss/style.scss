@@ -1,18 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  background-color:#EBEBEB;
-  padding-top: 5em;
-}
-* {
-  font-family: 'Raleway';
-}
-button {
-  background:#008FEF;
-  color:white;
-  padding: 1.2em;
-  width:300px;
-  text-align:center;
-  font-size:1.2em;
-  margin-bottom: 30px;
-  cursor:pointer;
-}
+/**
+ * Spirovanni - Bootstrap 4 Front End Book Store Template
+ * @version v1.0.1
+ * @link https://spirovanni.com
+ * Copyright (c) 2017 Spirovanni Inc Xavier Martinez
+ * @license Commercial
+ */
+// Core variables and mixins
+@import "variables/bootstrap-variables";
+@import '../../node_modules/bootstrap/scss/variables';
+@import "variables/custom-variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "core/mixins";

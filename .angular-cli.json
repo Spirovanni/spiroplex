@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
+    "version": "1.0.1",
     "name": "spiroplex"
   },
   "apps": [
@@ -19,7 +20,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "scss/style.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
