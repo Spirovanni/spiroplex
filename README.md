@@ -14,17 +14,11 @@ echo "# spiroplex" >> README.md
 
 git add .
 
-git init
-
-git add README.md
-
 git commit -m "first commit"
-
-git remote add origin https://github.com/Spirovanni/spiroplex.git
 
 git push -u origin master
 
-…or push an existing repository from the command line
+…The following for first push
 
 git remote add origin https://github.com/Spirovanni/spiroplex.git
 

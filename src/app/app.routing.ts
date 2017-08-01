@@ -20,11 +20,11 @@ export const routes: Routes = [
     children: [
       {
         path: 'dashboard',
-        loadChildren: './dashboard/dashboard.module#DashboardModule'
+        loadChildren: './views/dashboard/dashboard.module#DashboardModule'
       },
       {
         path: 'splash',
-        loadChildren: './splash/splash.module#SplashModule'
+        loadChildren: './views/splash/splash.module#SplashModule'
       }
     ]
   },
