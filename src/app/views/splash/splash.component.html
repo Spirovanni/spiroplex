@@ -1,48 +1,90 @@
 <div class="animated fadeIn">
 
-  <!--  <div class="row">
-      <div class="col-12">
-        <div id="hero" class="card">
-          <div id="realhero" class="card-block">
-            <div class="row">
-              <div class="hero">
-                <div class="container">
-                  <h2>Spirovanni</h2>
-                  <p>Welcome player to the next level of your personal success journey!</p>
-                  <a routerLink="/dashboard" target="_blank" class="btn btn-primary btn-cta btn-lg btn-raised ui-wave">Start Today!</a>
-                </div>
-                <div class="img scrollreveal" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; " data-sr-id="1">
-                  <img src="../../../assets/img/hero.png">
-                </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="row">
+            <div class="header-main-right col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-push-6 col-md-5">
+              <h1>Welcome to the <span>Spirovanni</span> Framework!</h1>
+              <p>Your no excuses headquarters for getting thing done, because today will be different.</p>
+              <div class="scroll-to">
+                <a data-scroll="" routerLink="/dashboard" class="btn btn-primary btn-cta btn-lg btn-raised ui-wave" role="button">Start Today</a>
               </div>
-            <carousel>
-              <slide>
-                <img src="./../../assets/img/nature/7.jpg" alt="First slide">
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </slide>
-              <slide>
-                <img src="./../../assets/img/nature/8.jpg" alt="Second slide">
-                <div class="carousel-caption">
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </slide>
-              <slide>
-                <img src="./../../assets/img/nature/1.jpg" alt="Third slide">
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </slide>
-            </carousel>
+            </div>
+            <div class="header-main-left col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-pull-6 col-md-7">
+              <img src="../../../assets/img/hero.png" alt="Book" class="img-responsive hero">
             </div>
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+
+            <a class="pointer" routerLink="/bookList">
+              <img src="../../../assets/img/bestseller.png" class="img-responsive" />
+            </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <a class="pointer" routerLink="/hours">
+            <img src="../../../assets/img/hours.png" class="img-responsive" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <a class="pointer" routerLink="/faq">
+            <img src="../../../assets/img/faq.png" class="img-responsive" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="home-headline"><span>Featured Books</span></div>
+    <hr style="margin-top: -15px;" />
+  </div>
+
+  <img class="img-responsive" src="../../../assets/img/shelf.png" style="margin-top: -5px; z-index:-1; margin-bottom: 20px" />
+
+  <div class="row" style="margin:auto; margin-top:-230px; margin-bottom:50px; width:90%; padding-left: 20px;">
+    <div class="col-xs-2">
+      <a class="pointer" routerLink="/faq">
+        <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+      </a>
+    </div>
+    <div class="col-xs-2">
+      <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+    </div>
+    <div class="col-xs-2">
+      <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+    </div>
+    <div class="col-xs-2">
+      <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+    </div>
+    <div class="col-xs-2">
+      <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+    </div>
+    <div class="col-xs-2">
+      <img class="img-responsive" style="width: 65%;" src="../../../assets/img/book1.png" />
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-8">
       <div class="card">
@@ -732,3 +774,28 @@
     </div><!--/.col-->
   </div><!--/.row-->
 </div>
+
+
+<!--<carousel>
+  <slide>
+    <img src="./../../assets/img/nature/7.jpg" alt="First slide">
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+  </slide>
+  <slide>
+    <img src="./../../assets/img/nature/8.jpg" alt="Second slide">
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </slide>
+  <slide>
+    <img src="./../../assets/img/nature/1.jpg" alt="Third slide">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </slide>
+</carousel>-->
